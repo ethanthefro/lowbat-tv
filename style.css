@@ -289,6 +289,14 @@ h1 {
         margin-top: 3em;
     }
 
+    .reel iframe {
+        height: 8em;
+    }
+
+    .reel h1 {
+        font-size: 20px;
+    }
+
     .reel-wrapper {
         width: 75%;
     }
