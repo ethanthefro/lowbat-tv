@@ -294,7 +294,11 @@ h1 {
     }
     
     .project-wrapper {
-        width: 100%;
+        width: 45%;
+    }
+
+    .project-wrapper span {
+        font-size: 10px;
     }
 
     .hero {
