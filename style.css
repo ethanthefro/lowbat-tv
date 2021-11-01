@@ -287,10 +287,11 @@ h1 {
 
     .reel {
         margin-top: 3em;
+        padding: 0 .5em;
     }
 
     .reel iframe {
-        height: 8em;
+        height: 12em;
     }
 
     .reel h1 {
