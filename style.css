@@ -296,9 +296,16 @@ h1 {
     row-gap: .5em;
 }
 
-.process img {
+.icon-wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     width: 3.5em;
-    height: 8em;
+}
+
+.process img {
+    width: 100%;
+    height: auto;
 }
 
 .process p {
