@@ -294,28 +294,29 @@ h1 {
     }
     
     .music-vids {
-        padding: 0;
+        padding: 0 .5em;
     }
 
     .all-projects {
-        row-gap: 0;
+        row-gap: 1em;;
     }
 
     .project-wrapper {
         width: 50%;
         row-gap: 0;
-        margin-bottom: -2em;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-top: 4px solid white;
     }
 
     .project-wrapper span {
-        text-align: center;
         font-size: 10px;
-        color: white;
-        font-weight: bold;
-        -webkit-text-stroke: 0.5px black;
-        position: relative;
-        top: -3em;
+        line-height: 10px;
+        text-align: center;
+    }
 
+    #small-text {
+        font-size: 8px;
     }
 
     .hero {
