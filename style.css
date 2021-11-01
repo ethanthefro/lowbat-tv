@@ -293,12 +293,29 @@ h1 {
         width: 75%;
     }
     
+    .music-vids {
+        padding: 0;
+    }
+
+    .all-projects {
+        row-gap: 0;
+    }
+
     .project-wrapper {
-        width: 45%;
+        width: 50%;
+        row-gap: 0;
+        margin-bottom: -2em;
     }
 
     .project-wrapper span {
+        text-align: center;
         font-size: 10px;
+        color: white;
+        font-weight: bold;
+        -webkit-text-stroke: 0.5px black;
+        position: relative;
+        top: -3em;
+
     }
 
     .hero {
