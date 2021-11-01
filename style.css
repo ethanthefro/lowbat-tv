@@ -267,7 +267,46 @@ h1 {
     align-self: center;
 }
 
-/* MEDIA DECLARATIONS */
+.process {
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 3em;
+}
+
+.all-process {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3em;
+    margin-bottom: 3em;
+}
+
+.process-card {
+    width: 30%;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    row-gap: .5em;
+}
+
+.process img {
+    width: 3.5em;
+    height: 8em;
+}
+
+.process p {
+    width: 90%;
+    font-size: 12px;
+}
+
+/*********** MEDIA DECLARATIONS ***********/
 @media screen and (max-width: 850px) {
     .header {
         flex-direction: column;
@@ -331,6 +370,10 @@ h1 {
 
     .hero {
         margin-top: 3em;
+    }
+
+    .who {
+        padding: 0 .5em;
     }
 
     .clients h1 {

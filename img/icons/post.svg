@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="Layer_1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480"
+	 style="enable-background:new 0 0 480 480;" xml:space="preserve">
+<g>
+	<path d="M421,40H59c-10.5,0-19,8.5-19,19v215h400V59C440,48.5,431.5,40,421,40z M300.7,167.7L191.1,231
+		c-11.1,6.4-20.1,1.2-20.1-11.6V92.8c0-12.8,9-18,20.1-11.6l109.7,63.3C311.8,150.9,311.8,161.3,300.7,167.7z"/>
+	<path d="M430,0H50C22.4,0,0,22.4,0,50v314.3c0,27.6,22.4,50,50,50h148c-2.2,18.3-10.4,35.3-23.7,48.6L157.3,480h165.5l-17.1-17.1
+		c-13.3-13.3-21.5-30.2-23.7-48.6h148c27.6,0,50-22.4,50-50V50C480,22.4,457.6,0,430,0z M50,20h380c16.5,0,30,13.5,30,30v284H20V50
+		C20,33.5,33.5,20,50,20z M277.7,460h-75.4c8.8-13.7,14.3-29.3,15.8-45.7h43.8C263.5,430.7,268.9,446.3,277.7,460z M430,394.3H50
+		c-16.5,0-30-13.5-30-30V354h440v10.3C460,380.9,446.5,394.3,430,394.3z"/>
+	<circle cx="240" cy="374.2" r="12"/>
+	<rect x="40" y="294" width="14.7" height="20"/>
+	<rect x="72.6" y="294" width="14.7" height="20"/>
+	<rect x="105.3" y="294" width="14.7" height="20"/>
+	<rect x="137.9" y="294" width="302.1" height="20"/>
+</g>
+</svg>
