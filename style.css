@@ -313,6 +313,57 @@ h1 {
     font-size: 12px;
 }
 
+.team {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3em;
+    margin-bottom: 3em;
+}
+
+.all-photos {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8.33%;
+    row-gap: 2em;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.all-photos img {
+    width: 100%;
+}
+
+.photo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.photo-wrapper span {
+    text-align: center;
+    font-size: 14px;
+}
+
+.team button {
+    width: 12em;
+    padding: 1em 0;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+}
+
+.team button:hover {
+    background-color: black;
+    color: white;
+}
+
 /*********** MEDIA DECLARATIONS ***********/
 @media screen and (max-width: 850px) {
     .header {
@@ -359,7 +410,7 @@ h1 {
 
     .project-wrapper {
         width: 50%;
-        row-gap: 0;
+        row-gap: .5em;
         border-left: 2px solid white;
         border-right: 2px solid white;
         border-top: 4px solid white;
@@ -387,9 +438,35 @@ h1 {
         text-align: center;
     }
 
+    .client-logos {
+        justify-content: center;
+        column-gap: 20%;
+    }
+
     .client-logos img {
         width: 40%;
-        justify-content: space-between;
-        column-gap: 20%;
+    }
+
+    .process h1 {
+        text-align: center;
+    }
+
+    .all-process {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .process-card {
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .all-photos {
+        align-items: flex-start;
+    }
+
+    .photo-wrapper {
+        width: 45%;
     }
 }
