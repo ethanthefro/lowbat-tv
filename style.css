@@ -462,11 +462,25 @@ h1 {
         justify-content: flex-start;
     }
 
+    .team {
+        padding: 0;
+        margin: 0 0 3em 0;
+    }
+
+
     .all-photos {
         align-items: flex-start;
+        width: 100%;
+        column-gap: 0;
+        row-gap: .5em;
     }
 
     .photo-wrapper {
-        width: 45%;
+        width: 50%;
+        border: 2px solid white;
+    }
+
+    .photo-wrapper img {
+        width: 100%;
     }
 }
