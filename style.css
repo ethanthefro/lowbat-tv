@@ -37,6 +37,7 @@ h1 {
     padding: .75em 20%;
     position: fixed;
     top: 0;
+    z-index: 9;
 }
 
 .header-logo {
@@ -72,6 +73,77 @@ h1 {
     background-color: black;
     color: lightgray;
     font-size: 11px;
+    z-index: 9;
+}
+
+.footer-fixed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    width: 100%;
+    background-color: black;
+    color: lightgray;
+    font-size: 11px;
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+}
+
+.index-body {
+    background-color: black;
+}
+
+/************************************* INDEX STYLES BELOW *************************************/
+#sec1 {
+    background-image: url("img/1.jpg")
+}
+#sec2 {
+    background-image: url("img/2.jpg")
+}
+#sec3 {
+    background-image: url("img/3.jpg")
+}
+#sec4 {
+    background-image: url("img/4.jpg")
+}
+#sec5 {
+    background-image: url("img/5.jpg")
+}
+
+.index-title {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.index-title:hover {
+    filter: invert(100);
+}
+
+.section {
+    background-size: cover;
+}
+
+.section h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.section h2 {
+    font-weight: normal;
+}
+
+.watch-button {
+    width: 10em;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.watch-button:hover {
+    filter: invert(100);
+}
+
+#fullpage {
+    text-align: center;
 }
 
 /************************************* PROJECTS STYLES BELOW *************************************/
