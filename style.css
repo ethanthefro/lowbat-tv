@@ -463,6 +463,12 @@ h1 {
     text-align: center;
 }
 
+.contact-form {
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
 /*********** MEDIA DECLARATIONS ***********/
 @media screen and (max-width: 850px) {
     .header {
@@ -581,9 +587,5 @@ h1 {
 
     .photo-wrapper img {
         width: 100%;
-    }
-
-    .contact-form {
-        padding-top: 3em;
     }
 }
