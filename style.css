@@ -193,7 +193,14 @@ h1 {
     row-gap: 3em;
 }
 
+.all-projects a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .project-wrapper {
+    text-decoration: none;
+    color: inherit;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -335,9 +342,13 @@ h1 {
     row-gap: 2em;
 }
 
-.client-logos img {
+.logo-wrapper {
     width: 15%;
     align-self: center;
+}
+
+.logo-wrapper img {
+    width: 100%;
 }
 
 .process {
@@ -516,7 +527,7 @@ h1 {
         column-gap: 20%;
     }
 
-    .client-logos img {
+    .logo-wrapper {
         width: 40%;
     }
 
