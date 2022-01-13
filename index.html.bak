@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="fullpage/fullpage.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3d3d3d">
+    <title>LOWBAT | VIDEO PRODUCTION</title>
+</head>
+<body class="index-body">
+    <div class="header">
+        <img class="header-logo" src="img/lblogo.svg">
+        <ul class="links">
+            <li><a id="current" href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="/blog/podcast">PODCAST</a></li>
+            <li><a href="/blog">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-fixed">
+        <p>© 2022 LOWBAT VIDEO PRODUCTION. ALL RIGHTS RESERVED.</p>
+    </div>
+
+    <div id="fullpage">
+        <div id= "sec1" class="section">
+            <a href="/blog/2021/09/01/getting-better-music-video-release/">
+                <h1 class="index-title">NOAH FORD</h1>
+                <h2 class="index-title">GETTING BETTER</h2>
+                <img class="watch-button" src="img/watchButton.png">
+            </a>
+        </div>
+        <div id="sec2" class="section">
+            <a href="/blog/2019/10/12/incandescent-music-video-release/">
+                <h1 class="index-title">BOXFORD</h1>
+                <h2 class="index-title">INCANDESCENT</h2>
+                <img class="watch-button" src="img/watchButton.png">
+            </a>
+        </div>
+        <div id= "sec3" class="section">
+            <a href="/blog/2020/01/13/bitter-but-better-music-video-release/">
+                <h1 class="index-title">WRING OUT</h1>
+                <h2 class="index-title">BITTER BUT BETTER</h2>
+                <img class="watch-button" src="img/watchButton.png">
+            </a>
+        </div>
+        <div id="sec4" class="section">
+            <a href="/blog/2019/08/18/tripping-inside-my-head-music-video-release/">
+                <h1 class="index-title">SUBURBAN KEY PARTY</h1>
+                <h2 class="index-title">TRIPPING INSIDE MY HEAD</h2>
+                <img class="watch-button" src="img/watchButton.png">
+            </a>
+        </div>
+        <div id="sec5" class="section">
+            <a href="/blog/2020/08/08/halfway-to-texas-music-video-release/">
+                <h1 class="index-title">SECRET INGREDIENTS</h1>
+                <h2 class="index-title">HALFWAY TO TEXAS</h2>
+                <img class="watch-button" src="img/watchButton.png">
+            </a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="fullpage/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            loopTop: true,
+            loopBottom: true,
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['1', '2', '3', '4', '5']
+        });
+    </script>
+</body>
+</html>
