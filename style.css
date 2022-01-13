@@ -95,6 +95,7 @@ h1 {
 }
 
 /************************************* INDEX STYLES BELOW *************************************/
+
 #sec1 {
     background-image: url("img/1.jpg")
 }
@@ -114,6 +115,7 @@ h1 {
 .index-title {
     color: white;
     text-shadow: 2px 2px 5px black;
+    z-index: 5;
 }
 
 .index-title:hover {
