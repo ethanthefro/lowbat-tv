@@ -157,6 +157,7 @@ video {
     position: relative;
     top: 0;
     left: 0;
+    -webkit-perspective: 1000;
 }
 
 .vid-overlay {
