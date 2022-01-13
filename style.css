@@ -157,7 +157,6 @@ video {
     position: relative;
     top: 0;
     left: 0;
-    -webkit-perspective: 1000;
 }
 
 .vid-overlay {
@@ -168,6 +167,7 @@ video {
     right: 0;
     top: 50%;
     text-align: center;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 /************************************* PROJECTS STYLES BELOW *************************************/
